@@ -50,7 +50,7 @@ export default function Home() {
               id="receivedMessage"
               value={receivedMessage}
               onChange={(e) => setReceivedMessage(e.target.value)}
-              className="w-full h-24 p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 resize-none bg-white/80 shadow-inner"
+              className="w-full h-24 p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 resize-none bg-white/80 shadow-inner text-gray-700"
               placeholder="Paste the message you received..."
             />
           </div>
@@ -63,7 +63,7 @@ export default function Home() {
               id="draftResponse"
               value={draftResponse}
               onChange={(e) => setDraftResponse(e.target.value)}
-              className="w-full h-24 p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 resize-none bg-white/80 shadow-inner"
+              className="w-full h-24 p-4 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all duration-200 resize-none bg-white/80 shadow-inner text-gray-700"
               placeholder="Write your draft response here..."
             />
           </div>
