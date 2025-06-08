@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import ReplyCard from '@/components/ReplyCard';
-import ToneSelector from '@/components/ToneSelector';
-import Loader from '@/components/Loader';
+import ReplyCard from '../components/ReplyCard';
+import ToneSelector from '../components/ToneSelector';
+import Loader from '../components/Loader';
 
 export default function Home() {
   const [receivedMessage, setReceivedMessage] = useState('');
